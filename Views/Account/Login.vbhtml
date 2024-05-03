@@ -43,19 +43,12 @@ End Code
                 <p>
                     @Html.ActionLink("Register as a new user", "Register")
                 </p>
-                @* Enable this once you have account confirmation enabled for password reset functionality
-                    <p>
-                        @Html.ActionLink("Forgot your password?", "ForgotPassword")
-                    </p>*@
+
                 </text>
             End Using
         </section>
     </div>
-    <div class="col-md-4">
-        <section id="socialLoginForm">
-            @Html.Partial("_ExternalLoginsListPartial", New ExternalLoginListViewModel With {.ReturnUrl = ViewBag.ReturnUrl})
-        </section>
-    </div>
+
 </div>
 @Section Scripts
     @Scripts.Render("~/bundles/jqueryval")

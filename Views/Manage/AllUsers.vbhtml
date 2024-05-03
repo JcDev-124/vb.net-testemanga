@@ -1,7 +1,7 @@
 ﻿@ModelType IEnumerable(Of ApplicationUser)
 
 @Code
-    ViewData("Title") = "AllUsers"
+    ViewData("Title") = "Collaborators"
 End Code
 
 <h2>AllUsers</h2>
