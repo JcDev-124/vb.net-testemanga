@@ -1,0 +1,111 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+ 
+
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #f8b400; /* Amarelo */
+    color: #333; /* Texto escuro */
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 15px; /* Borda arredondada */
+}
+
+/* Cards */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #eee; /* Borda cinza clara */
+    border-radius: 15px; /* Borda arredondada */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #1f4068; /* Azul escuro */
+    border-color: #1f4068;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #1b3152; /* Azul escuro mais escuro */
+    border-color: #1b3152;
+    color: black;
+}
+
+.btn-secondary {
+    background-color: #1f4068; /* Azul escuro */
+    border-color: #1f4068;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #1f4068; /* Azul escuro */
+    border-color: #1f4068;
+    color: black;
+}
+
+
+
+.navbar-inverse {
+            background-color: #333; /* Cor de fundo da navbar */
+            border-color: #333; /* Cor da borda da navbar */
+        }
+
+        .navbar-inverse .navbar-brand,
+        .navbar-inverse .navbar-nav > li > a {
+            color: #fff; /* Cor do texto da navbar */
+        }
+
+        .navbar-inverse .navbar-brand:hover,
+        .navbar-inverse .navbar-nav > li > a:hover,
+        .navbar-inverse .navbar-nav > li.active > a {
+            color: #f8b400; /* Cor do texto da navbar quando hover ou ativo */
+        }
+
+        .navbar-inverse .navbar-toggle {
+            border-color: #fff; /* Cor da borda do botão toggle */
+        }
+
+        .navbar-inverse .navbar-toggle:hover,
+        .navbar-inverse .navbar-toggle:focus {
+            background-color: #333; /* Cor de fundo do botão toggle quando hover ou focado */
+        }
+
+        /* Estilo para o container do conteúdo principal */
+        .body-content {
+            margin-top: 70px; /* Margem do conteúdo para acomodar a navbar */
+        }
+
+        /* Estilo para o rodapé */
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
