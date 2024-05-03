@@ -286,6 +286,12 @@ Public Class ManageController
         MyBase.Dispose(disposing)
     End Sub
 
+    ' GET: /Manage/AllUsers
+    Public Function AllUsers() As ActionResult
+        Dim users = UserManager.Users.ToList()
+        Return View(users)
+    End Function
+
 #Region "Helpers"
     ' Used for XSRF protection when adding external logins
     Private Const XsrfKey As String = "XsrfId"

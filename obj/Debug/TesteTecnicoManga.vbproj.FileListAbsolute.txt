@@ -84,5 +84,3 @@ c:\users\julio\onedrive\documentos\visual studio 2015\Projects\TesteTecnicoManga
 c:\users\julio\onedrive\documentos\visual studio 2015\Projects\TesteTecnicoManga\TesteTecnicoManga\obj\Debug\TesteTecnicoManga.dll
 c:\users\julio\onedrive\documentos\visual studio 2015\Projects\TesteTecnicoManga\TesteTecnicoManga\obj\Debug\TesteTecnicoManga.xml
 c:\users\julio\onedrive\documentos\visual studio 2015\Projects\TesteTecnicoManga\TesteTecnicoManga\obj\Debug\TesteTecnicoManga.pdb
-c:\users\julio\onedrive\documentos\visual studio 2015\Projects\TesteTecnicoManga\TesteTecnicoManga\obj\Debug\TesteTecnicoManga.Migrations.InitialCreate.resources
-c:\users\julio\onedrive\documentos\visual studio 2015\Projects\TesteTecnicoManga\TesteTecnicoManga\obj\Debug\TesteTecnicoManga.Migrations.update.resources

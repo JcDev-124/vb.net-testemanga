@@ -23,7 +23,7 @@ End Code
             <div class="card-body">
                 <h2 class="card-title">Veja Quem Já Está Apoiando</h2>
                 <p class="card-text">Veja todos os usuários que já estão cadastrados e apoiando esta causa.</p>
-                <p><a class="btn btn-secondary" href="@Url.Action("GetAllUsers", "Account")">Ver Usuários &raquo;</a></p>
+                <p><a class="btn btn-secondary" href="@Url.Action("AllUsers", "Manage")">Ver Usuários &raquo;</a></p>
             </div>
         </div>
     </div>
