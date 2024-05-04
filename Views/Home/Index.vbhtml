@@ -1,5 +1,5 @@
 ﻿@Code
-    ViewData("Title") = "Cadastro de Apoio a uma Causa"
+    ViewData("Title") = ""
 End Code
 <div class="jumbotron">
     <h1>Sign Up and Support a Cause!</h1>
